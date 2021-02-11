@@ -1,4 +1,4 @@
-const customName = document.getElementById('.customname');
+const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -39,7 +39,7 @@ function result() {
 
     newStory = newStory.replace(':insertx:',xItem);
     newStory = newStory.replace(':inserty:',yItem);
-    newStory = newStory.replace(':insertz:',zItem);
+    newStory = newStory.replace(':insertx:',zItem);
     newStory = newStory.replace(':insertz:',zItem);
 
 
