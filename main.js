@@ -44,7 +44,7 @@ function result() {
 
 
   if(customName.value !== '') {
-    let name = customName.value;
+    const name = customName.value;
     newStory = newStory.replace('Bob',name);
 
   }
